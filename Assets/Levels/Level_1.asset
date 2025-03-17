@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac2f5a28da8668b4391ca017cefc25f6, type: 3}
+  m_Name: Level_1
+  m_EditorClassIdentifier: 
+  Hordes:
+  - SubHordes:
+    - EnemyCount: 3
+      SplitHorde: 0
+      SpawnInterval: 1
+      LongspawnInterval: 0
+      EnemyToSpawn: {fileID: 11400000, guid: 1c4c43a2071c6f041a6a20592492886b, type: 2}
+  - SubHordes:
+    - EnemyCount: 6
+      SplitHorde: 0
+      SpawnInterval: 1
+      LongspawnInterval: 0
+      EnemyToSpawn: {fileID: 11400000, guid: 1c4c43a2071c6f041a6a20592492886b, type: 2}
+  - SubHordes:
+    - EnemyCount: 9
+      SplitHorde: 3
+      SpawnInterval: 0.6
+      LongspawnInterval: 1
+      EnemyToSpawn: {fileID: 11400000, guid: 1c4c43a2071c6f041a6a20592492886b, type: 2}
+  - SubHordes:
+    - EnemyCount: 4
+      SplitHorde: 0
+      SpawnInterval: 0.6
+      LongspawnInterval: 0
+      EnemyToSpawn: {fileID: 11400000, guid: 1c4c43a2071c6f041a6a20592492886b, type: 2}
+    - EnemyCount: 1
+      SplitHorde: 0
+      SpawnInterval: 1
+      LongspawnInterval: 0
+      EnemyToSpawn: {fileID: 11400000, guid: 7e7f394a9d9f386428c99f49c6ad9814, type: 2}
+  - SubHordes:
+    - EnemyCount: 3
+      SplitHorde: 0
+      SpawnInterval: 1
+      LongspawnInterval: 0
+      EnemyToSpawn: {fileID: 11400000, guid: 7e7f394a9d9f386428c99f49c6ad9814, type: 2}
+  - SubHordes:
+    - EnemyCount: 10
+      SplitHorde: 2
+      SpawnInterval: 0.6
+      LongspawnInterval: 1
+      EnemyToSpawn: {fileID: 11400000, guid: 1c4c43a2071c6f041a6a20592492886b, type: 2}
+    - EnemyCount: 4
+      SplitHorde: 0
+      SpawnInterval: 1
+      LongspawnInterval: 0
+      EnemyToSpawn: {fileID: 11400000, guid: 7e7f394a9d9f386428c99f49c6ad9814, type: 2}
+  - SubHordes:
+    - EnemyCount: 16
+      SplitHorde: 2
+      SpawnInterval: 0.6
+      LongspawnInterval: 1
+      EnemyToSpawn: {fileID: 11400000, guid: 1c4c43a2071c6f041a6a20592492886b, type: 2}
